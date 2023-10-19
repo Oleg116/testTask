@@ -12,15 +12,3 @@ thead > tr > td {
 thead > tr :nth-child(1) {
   border-left: 1px solid black;
 }
-
-tbody > tr > td {
-  font-size: 12px;
-  border: 1px solid black;
-  border-left: 0px;
-  padding: 5px;
-  margin: 0;
-}
-
-tbody > tr :nth-child(1) {
-  border-left: 1px solid black;
-}
