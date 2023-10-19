@@ -9,11 +9,9 @@ function GetFilesButton({ setFileData }: { setFileData: (param: string[][]) => v
         const response = await fetch(fileUrl);
         const text = await response.text();
         const lines = text.split("\n");
-        console.log(lines);
 
         const data = lines.map((line) => line.split(";"))
 
-        console.log(data);
 
         setFileData(data);
       } catch (error) {
